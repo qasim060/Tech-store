@@ -1,0 +1,165 @@
+*{
+
+    margin: 0px;
+    padding:0px;
+}
+
+body{
+
+    background-color: lightblue;
+    margin: 5px;
+    padding: 5px;
+}
+
+.logo{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    background-color: rgb(92, 92, 129);
+   align-items: center;
+}
+
+.logo img{
+
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.logo input{
+    
+    margin-left: 380px;
+    margin-bottom: 15px;
+    width: 500px;
+    height: 40px;
+    align-items: center;
+    padding-left: 10px;
+    border-radius: 15px;
+    border:1px solid black
+}
+
+.icon{
+    justify-content: space-evenly;
+    margin-right: 75px;
+    margin-top: 35px;
+    float: right;
+    cursor: pointer;
+}
+
+
+
+.category {
+
+    margin-left: 15px;
+    margin-top: 35px;
+    border: 1px solid rgb(251, 225, 225);
+    width: 180px;
+    height: 180px;
+    background-color:wheat;
+}
+
+.category p{
+
+    font-size: x-large;
+    font-weight: bold;
+    background-color: blueviolet;
+    width: 180px;
+    color: white;
+    text-align: center;
+    height: 30px;
+}
+
+.category a{
+
+    margin-top: 6px;
+    text-decoration: none;
+    display: flex;
+    padding: 5px;
+    color: black;
+    margin-left: 5px;
+  
+}
+
+a:hover{
+
+    background-color: black;
+    border-radius: 10px;
+    color:white;
+   
+}
+.poster img{
+
+    margin-left: 225px;
+
+}
+
+.cards{
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-top: 35px;
+    border: 1px solid black;
+    width: 240px;
+    box-shadow: 5px 5px 5px;
+    border-radius: 10px;
+}
+
+
+.cards img{
+
+    margin-left: 15%;
+}
+
+.title{
+
+    text-align: center;
+}
+
+.cards button{
+
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.cards button:hover{
+
+    background-color: black;
+    color: white;
+    transition: .5s;
+}
+
+.foot{
+
+    margin-top: 30px;
+    background-color: lightslategray;
+    text-align: center;
+}
+
+.foot p{
+
+    font-size: xx-large;
+    font-weight: bold;
+   
+}
+
+
+.foot img{
+ 
+    margin-top: 15px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.foot img:hover{
+
+    background-color: rgb(42, 44, 44);
+    border-radius: 10px;
+}
+
+.foot h4{
+
+    margin-top: 5px;
+}
